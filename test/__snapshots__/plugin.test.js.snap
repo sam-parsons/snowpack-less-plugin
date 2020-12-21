@@ -3,5 +3,6 @@
 exports[`snowpack-plugin-less returns the compiled Less result: styles.less 1`] = `
 "a {
   color: #444;
-}"
+}
+"
 `;

@@ -13,22 +13,22 @@ module.exports = function lessPlugin(_, {compilerOptions = {}} = {}) {
       const contents = fs.readFileSync(filePath, 'utf8');
 
       // Pass in user-defined options
-      Object.entries(compilerOptions).forEach(([flag, value]) => {
-        let flagName = flag.replace(/[A-Z]/g, (c) => `-${c.toLowerCase()}`); // convert camelCase to kebab-case
-        switch (typeof value) {
-          case 'boolean': {
-            args.push(`--${value === false ? 'no-' : ''}${flagName}`);
-            break;
-          }
-          case 'string':
-          case 'number': {
-            args.push(`--${flagName}=${value}`);
-            break;
-          }
-        }
-      });
+      // Object.entries(compilerOptions).forEach(([flag, value]) => {
+      //   let flagName = flag.replace(/[A-Z]/g, (c) => `-${c.toLowerCase()}`); // convert camelCase to kebab-case
+      //   switch (typeof value) {
+      //     case 'boolean': {
+      //       args.push(`--${value === false ? 'no-' : ''}${flagName}`);
+      //       break;
+      //     }
+      //     case 'string':
+      //     case 'number': {
+      //       args.push(`--${flagName}=${value}`);
+      //       break;
+      //     }
+      //   }
+      // });
 
-      console.log("args after processing compiler opts: ", args);
+      // console.log("args after processing compiler opts: ", args);
 
       // Build the file.
       // TODO: Error handling
