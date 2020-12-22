@@ -3,7 +3,7 @@ const less = require('less');
 
 module.exports = function lessPlugin(_, {compilerOptions = {}} = {}) {
   return {
-    name: 'snowpack-plugin-less',
+    name: 'snowpack-less-plugin',
     resolve: {
       input: ['.less'],
       output: ['.css'],

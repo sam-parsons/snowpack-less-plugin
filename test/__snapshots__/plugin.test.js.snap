@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`snowpack-plugin-less returns the compiled Less result: styles.less 1`] = `
+exports[`snowpack-less-plugin returns the compiled Less result: styles.less 1`] = `
 "a {
   color: #444;
 }

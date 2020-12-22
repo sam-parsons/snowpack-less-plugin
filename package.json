@@ -1,6 +1,6 @@
 {
-  "name": "snowpack-plugin-less",
-  "version": "1.0.0",
+  "name": "snowpack-less-plugin",
+  "version": "1.0.1",
   "description": "",
   "main": "plugin.js",
   "directories": {
@@ -14,15 +14,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sam-parsons/snowpack-plugin-less.git"
+    "url": "git+https://github.com/sam-parsons/snowpack-less-plugin.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Sam Parsons",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/sam-parsons/snowpack-plugin-less/issues"
+    "url": "https://github.com/sam-parsons/snowpack-less-plugin/issues"
   },
-  "homepage": "https://github.com/sam-parsons/snowpack-plugin-less#readme",
+  "homepage": "https://github.com/sam-parsons/snowpack-less-plugin#readme",
   "dependencies": {
     "less": "^4.0.0"
   },
